@@ -47,6 +47,7 @@ h4.text-6 {
     text-transform: uppercase;
 }
 
+
 /* Header Styles */
 
 header .container-fluid > .row > .col-md-6 > .home-1 .home-nav .navbar-brand {
@@ -142,7 +143,47 @@ header .container-fluid > .row > .col-md-6 > .home-3 .book-ser{
     padding: 10px;
     font-size: 16px;
 }
-
+@media (max-width: 991.98px){
+    header{
+        background-image:url(../images/Rectangle\ 1.png) ;
+        width: 100%;
+    }
+    header .container-fluid .row .col-md-6 .home-1 .home-nav .navbar-brand{
+        display: none;
+    }
+    header .container-fluid .row .col-md-6 .home-1 .home-nav .navbar-toggler{
+        border: none;
+        color: #fff;
+    }
+    header .container-fluid .row .col-md-6 .home-1 .home-nav .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    header .container-fluid > .row > .col-md-6 > .home-1 .image-1 {
+        position: relative;
+    }
+    header .container-fluid > .row > .col-md-6 > .profile a{
+        color: #fff;
+        background-color: #007bee;
+    }
+    header .container-fluid > .row > .col-md-6 > .profile a.reg{
+        background-color: #fff;
+        color: #007bee;
+    }
+    header .container-fluid > .row > .col-md-6 > .home-3{
+        position: absolute;
+        left: 30%;
+        top: 55%;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       padding: 5px;
+       margin-bottom: 20px;
+       align-items: center;
+    }
+    header .container-fluid > .row > .col-md-6 > .home-3 .name{
+        padding: 10px;
+    }
+}
 
 /* end Style Header */
 
@@ -443,6 +484,8 @@ button.popular{
     background-color: #007bee;
     font-size: 24px;
 }
+
+
 /* End Style problem*/
 
 /* start style test */

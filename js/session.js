@@ -12,24 +12,6 @@ document.querySelector(".search-btn").addEventListener("click", () => {
         alert("⚠️  The search value is not a valid number ❗️");
     }
 });
-
-// Start swiper One for popular now
-//////////////////////// Swiper 1 /////////////////
-// document.querySelector('.play-icon').addEventListener('click', function() {
-//   const video = document.querySelector('.myVideo');
-//   if (video.paused) {
-//     video.play();
-//     this.style.display = 'none';
-//   }
-// });
-
-// document.querySelector('.myVideo').addEventListener('pause', function() {
-//   document.querySelector('.play-icon').style.display = 'flex';
-// });
-
-// document.querySelector('.myVideo').addEventListener('play', function() {
-//   document.querySelector('.play-icon').style.display = 'none';
-
     // Play and pause functionality for video
     document.addEventListener('DOMContentLoaded', function() {
       const videoContainers = document.querySelectorAll('.video-container');
