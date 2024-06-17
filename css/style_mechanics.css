@@ -1,0 +1,463 @@
+/* ------
+Style mechanicsPage
+ ----------- */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+body{
+  background-color: rgba(0, 123, 238, 0.25) !important ;
+}
+html {
+  scroll-behavior: smooth;
+
+  border-radius: 15px;
+
+}
+html::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+html::-webkit-scrollbar-track {
+  background: #fff; /* Color of the track */
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color:rgba(0, 123, 238, 0.567); /* Color of the thumb */
+  border-radius: 6px; /* Radius of the thumb */
+}
+
+/* Constant */
+/* ////////////////////////////////////////////////////////// */
+/* Start Header Styles */
+header{
+  background-color: rgba(0, 124, 238, 0.9);
+}
+header .container-fluid > .row > .col-md-6 > .home-1 .home-nav .navbar-brand {
+  color: #fff;
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .container-fluid > .row > .col-md-6 > .home-1 .home-nav .navbar-brand span {
+  color: rgba(30, 30, 30, 1);
+}
+
+header .container-fluid > .row > .col-md-6 > .home-1 .home-nav #navbarNav {
+  margin: 10px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+header .container-fluid > .row > .col-md-6 > .home-1 .home-nav #navbarNav .nav-item .nav-link {
+  color: #fff;
+  font-weight: 200;
+  padding: 0 10px;
+}
+
+header .container-fluid > .row > .col-md-6 > .home-1 .home-nav #navbarNav .navbar-nav .active .nav-link {
+  color: rgba(30, 30, 30, 1) !important;
+  font-weight: bold;
+}
+header .container-fluid > .row > .col-md-6 > .profile {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+header .container-fluid > .row > .col-md-6 > .profile a {
+  margin-right: 10px;
+  color:#fff;
+}
+
+header .container-fluid > .row > .col-md-6 > .profile img {
+  width: 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+/* end Style header */
+/* //////////////////////////////////////////////////////// */
+
+/* Team Section
+--------------------------------*/
+.hero-wrap {
+ width: 100%;
+ height: 100%;
+ position: inherit;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+ position: relative; 
+}
+ @media (max-width: 1199.98px) {
+    .hero-wrap {
+                background-position: center center !important; 
+              }
+}
+.hero-wrap .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   content: '';
+   opacity: .4;
+   background: #000000;
+}
+.hero-wrap.hero-wrap-2 {
+  height: 500px; 
+}
+.hero-wrap.hero-wrap-2 .overlay {
+  opacity: .4; 
+}
+.hero-wrap.hero-wrap-2 .container .slider-text {
+  height: 500px;
+}
+
+.hero-wrap.hero-wrap-2 .container .slider-text .ftco-animate h1 {
+  font-weight: 400;
+  font-size: 40px; 
+}
+
+.hero-wrap .container .slider-text .ftco-animate h1 {
+  color:#fff ;
+  line-height: 1.2;
+}
+
+@media (max-width: 991.98px) {
+  .hero-wrap .container .slider-text .ftco-animate h1 {
+      font-size: 40px;
+  } 
+}
+
+.hero-wrap .container .slider-text .ftco-animate h1 span {
+  color: #f79f24;
+}
+
+.hero-wrap .container .slider-text .subheading {
+  font-size: 15px;
+  color: #f79f24;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hero-wrap .container .slider-text p {
+  font-size: 18px;
+  line-height: 1.5;
+ 
+}
+
+.hero-wrap .container .slider-text p strong {
+  font-weight: 700;
+}
+
+.hero-wrap .container .slider-text p strong a {
+  color: #000000;
+}
+
+.hero-wrap .container .slider-text .breadcrumbs {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  z-index: 99;
+}
+
+.hero-wrap .container .slider-text .breadcrumbs span {
+  font-size: 28px;
+  color: rgba(0, 124, 238, 0.9);
+}
+
+.hero-wrap .container .slider-text .breadcrumbs a {
+  color: rgba(0, 0, 0, 0.11);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.hero-wrap .slider-text .breadcrumbs a:hover,
+.hero-wrap .slider-text .breadcrumbs a:focus {
+  color: rgba(0, 124, 238,1);
+}
+.hero-wrap .slider-text .breadcrumbs a span:hover,
+.hero-wrap .slider-text .breadcrumbs a span:focus{
+  color: rgba(0, 0, 0, 0.11);
+}
+.hero-wrap .slider-text .breadcrumbs a:hover i,
+.hero-wrap .slider-text .breadcrumbs span a:focus i {
+  color: rgba(0, 124, 238,1);
+}
+
+.ftco-section {
+  padding: 7em 0;
+  position: relative; 
+}
+@media (max-width: 767.98px) {
+  .ftco-section {
+                 padding: 6em 0; 
+                } 
+}
+.ftco-bg-dark {
+  background: #3c312e;
+}
+.ftco-no-pt {
+  padding-top: 0 !important; 
+}
+.ftco-no-pb {
+  padding-bottom: 0 !important; 
+}
+                      
+.block-7 {
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: #fff;
+  -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+}
+@media (max-width: 991.98px) {
+  .block-7 {
+            margin-top: 30px; 
+           } 
+}
+.block-7 .heading-2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600; 
+}
+.block-7 .price {
+  margin: 0 0 20px 0;
+  padding: 0;
+  display: block; 
+}
+.block-7 .price sup {
+  font-size: 16px;
+  top: -1em;
+  color: #064acb; 
+}
+.block-7 .price .number {
+  font-size: 34px;
+  font-weight: 500;
+  color: #064acb; 
+}
+.block-7 .excerpt {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 600; 
+}
+.block-7 .label2 {
+  text-transform: uppercase; 
+}
+.block-7:hover, .block-7:focus {
+  -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+}
+
+.staff {
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 30px;
+ -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+}
+.staff .img-wrap {
+  height: 300px; 
+}
+.staff .img {
+  width: 100%;
+  display: block;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease; 
+}
+.staff .text {
+  position: relative;
+  background: #fff;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+}
+.staff .text h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+ -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #000000;
+  margin-bottom: 5px; 
+}
+.staff .text .position {
+  color: #064acb;
+  display: block;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+}
+.staff .text .faded {
+  opacity: 1; 
+}
+.staff .ftco-social {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  padding: 15px 10px;
+  background: transparent;
+  opacity: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+}
+.staff .ftco-social li {
+  width: 30px;
+  height: 30px;
+  position: relative; 
+}
+.staff .ftco-social li a {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  background: #064acb;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.staff:hover, .staff:focus {
+  -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11); 
+}
+.staff:hover .ftco-social, .staff:focus .ftco-social {
+  opacity: 1;
+  top: -60px; 
+}
+.staff:hover .img, .staff:focus .img {
+  margin-top: -10px; 
+}
+.staff:hover .text h3, .staff:focus .text h3 {
+  color: #f79f24; 
+}
+.ftco-social {
+  padding: 0; 
+}
+.ftco-social li {
+  list-style: none;
+  margin-right: 10px;
+  display: inline-block; 
+}
+                                                                                   
+/* #team {
+
+    padding: 60px 0;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+#team .container .section-header{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+#team .container .section-header h3{
+    color: rgba(0, 124, 238, 1);
+    font-size: 48px;
+}
+#team .member {
+    
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    border-radius: 40%;
+    overflow: hidden;
+}  
+#team .member .member-info {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+}
+#team .member .member-info-content {
+    margin-top: 50px;
+    transition: margin 0.2s;
+}
+
+#team .member:hover .member-info {
+    background: rgba(15, 77, 135, 0.15);
+    opacity: 1;
+    transition: 0.4s;
+  }
+  
+  #team .member:hover .member-info-content {
+    margin-top: 0;
+    transition: margin 0.4s;
+  }
+  
+  #team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  #team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+}
+#team .member .social {
+    margin-top: 15px;
+}
+#team .member .social a {
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.7);
+}
+  #team .member .social a:hover {
+    color: #fff;
+}
+#team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  } */
